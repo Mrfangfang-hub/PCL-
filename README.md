@@ -12,5 +12,6 @@
 
 ![image](https://github.com/Mrfangfang-hub/PCL-/assets/56708235/19e42222-aa84-4a70-b2b5-f8af8d5db35e)
 
+![image](https://github.com/Mrfangfang-hub/PCL-/assets/56708235/5f5718ee-75cb-4dc3-8aaf-b087e55e624a)
 
 上图为投影效果。
