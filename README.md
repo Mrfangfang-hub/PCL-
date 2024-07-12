@@ -18,5 +18,7 @@
 
 ## 2.邻近搜索.cpp
 使用KDtree对点云数据进行K近邻搜索以及半径内近邻搜索，并对搜索后的点进行可视化，包括原始点云。K近邻搜索为注释掉的一段，需要使用时解除注释即可。对于KDtree的建立以及算法介绍强烈推荐blog.csdn.net/silangquan/article/details/41483689，这位博主有原理的详细解释，也有实际的例子和代码，适合新手学习。
+
 ![image](https://github.com/user-attachments/assets/63a19e78-090b-4e43-8f59-741b6c9aea78)
+
 上图为设置搜索半径后的邻近搜索。
