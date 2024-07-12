@@ -15,3 +15,6 @@
 ![image](https://github.com/Mrfangfang-hub/PCL-/assets/56708235/5f5718ee-75cb-4dc3-8aaf-b087e55e624a)
 
 上图为投影效果。
+
+## 2.邻近搜索.cpp
+使用KDtree对点云数据进行K近邻搜索以及半径内近邻搜索，并对搜索后的点进行可视化，包括原始点云。K近邻搜索为注释掉的一段，需要使用时解除注释即可。对于KDtree的建立以及算法介绍强烈推荐blog.csdn.net/silangquan/article/details/41483689，这位博主有原理的详细解释，也有实际的例子和代码，适合新手学习。
