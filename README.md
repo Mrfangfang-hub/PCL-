@@ -21,4 +21,4 @@
 
 ![image](https://github.com/user-attachments/assets/63a19e78-090b-4e43-8f59-741b6c9aea78)
 
-上图为设置搜索半径后的邻近搜索。
+上图为设置搜索半径后的邻近搜索
