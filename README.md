@@ -22,3 +22,23 @@
 ![image](https://github.com/user-attachments/assets/63a19e78-090b-4e43-8f59-741b6c9aea78)
 
 上图为设置搜索半径后的邻近搜索。
+
+## 3.try.cpp
+
+在处理一些大型的点云数据时，总会出现部分点稀疏部分点密集的情况，直接进行曲面重构时的参数会无法同时满足不同情况，此时可以进行下采样降低密集点的密度，也可以进行上采样增加稀疏点的密度，这里直接把稀疏点和密集点划分为两部分，分别进行重构。
+
+原始数据集如下图，可以看到稀疏和密集区较为明显：
+
+![image](https://github.com/user-attachments/assets/2085352c-5c8b-49c7-a372-0931580219f0)
+
+![image](https://github.com/user-attachments/assets/e8bf7663-9dd5-4dbe-ad98-f68265c66ca6)
+
+运行代码后可以看出点云数据被很好地分成了两部分：
+
+![image](https://github.com/user-attachments/assets/e85345b8-d1dc-411d-b504-cd79035bb63c)
+
+![image](https://github.com/user-attachments/assets/77353788-c67a-4ac6-a2f2-4a4048de6b09)
+
+![image](https://github.com/user-attachments/assets/032ac63d-c52b-458d-9d87-80f33b9c5542)
+
+![image](https://github.com/user-attachments/assets/49cdb9ae-7b34-4a43-b1b5-8e1d006332fe)
