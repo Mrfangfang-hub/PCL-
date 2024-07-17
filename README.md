@@ -42,3 +42,17 @@
 ![image](https://github.com/user-attachments/assets/032ac63d-c52b-458d-9d87-80f33b9c5542)
 
 ![image](https://github.com/user-attachments/assets/49cdb9ae-7b34-4a43-b1b5-8e1d006332fe)
+
+## 4.pcltest.cpp
+
+点云数据中总会出现点分布不均匀的情况，可以通过下采样来使得点数据分别更平均，有利于曲面重构等后续处理，PCL自带的VoxelGrid(体素栅格)可以很好的完成这一任务，主要就是创建一个三维体素栅格(就是每个比较小的立方体组成的体素栅格)。在每个体素(三维立方体)里面，求取该立方体内的所有点云重心点来代表这个立方体的表示，以此达到下采样的目的。
+
+可以看到原数据上层有很明显的稀疏部分：
+
+![image](https://github.com/user-attachments/assets/347bb866-c253-4fc1-b513-3e14ec0c52e2)
+
+运行代码后效果变好了很多：
+
+![image](https://github.com/user-attachments/assets/b1ef69a6-1bf6-436b-a6be-77b59e3b5297)
+
+![image](https://github.com/user-attachments/assets/f30f15ac-2b4c-4851-bb74-95e86d31915b)
